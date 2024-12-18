@@ -1,0 +1,31 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.LoginTestPOM                                                           
+==============================================================================
+Login Test                                                              
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\KKK\Python\Python\kkk\robotframework\POMTestcases\LoginTestPOM.robot:14
+    T:  Login Test    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\KKK\Python\Python\kkk\robotframework\POMTestcases\LoginTestPOM.robot:16
+      Open my Browser    ${url}    ${Browser}
+      |  ${url} = https://www.demo.guru99.com/test/newtours/ (str)
+      |  ${Browser} = headlessfirefox (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\KKK\Python\Python\kkk\robotframework\Resources\login_keywords.robot:10
+      Open Browser    ${siteurl}    ${browser}
+      |  ${siteurl} = https://www.demo.guru99.com/test/newtours/ (str)
+      |  ${browser} = headlessfirefox (str)
+______________________________________________________________________________
+| FAIL |
+NoSuchDriverException: Message: Unable to obtain driver for firefox; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+------------------------------------------------------------------------------
+Suites.LoginTestPOM                                                   | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\KKK\Python\Python\kkk\robotframework\POMTestcases\PabotResults\pabot_results\0\output.xml
