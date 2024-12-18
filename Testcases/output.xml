@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.9 on win32)" generated="2024-11-20T12:37:01.396151" rpa="false" schemaversion="5">
+<suite id="s1" name="Navigationkeywords" source="C:\KKK\Python\Python\kkk\robotframework\Navigationkeywords.robot">
+<test id="s1-t1" name="NavKeywords" line="6">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T12:37:01.605501" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<arg>https://www.google.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T12:37:01.605501" elapsed="4.581673"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T12:37:06.188196" elapsed="0.038968"/>
+</kw>
+<kw name="Get Location" owner="SeleniumLibrary">
+<msg time="2024-11-20T12:37:06.235775" level="INFO">${title1} = https://www.google.com/</msg>
+<var>${title1}</var>
+<doc>Returns the current browser window URL.</doc>
+<status status="PASS" start="2024-11-20T12:37:06.227164" elapsed="0.008611"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${title1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-11-20T12:37:06.236770" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-20T12:37:08.238091" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-20T12:37:06.237771" elapsed="2.000320"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-20T12:37:08.238091" level="INFO">Opening url 'https://www.bing.com'</msg>
+<arg>https://www.bing.com</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-11-20T12:37:08.238091" elapsed="0.446336"/>
+</kw>
+<kw name="Get Location" owner="SeleniumLibrary">
+<msg time="2024-11-20T12:37:08.699020" level="INFO">${title2} = https://www.bing.com/</msg>
+<var>${title2}</var>
+<doc>Returns the current browser window URL.</doc>
+<status status="PASS" start="2024-11-20T12:37:08.685426" elapsed="0.013594"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${title2}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-11-20T12:37:08.700961" elapsed="0.001014"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-20T12:37:10.703134" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-20T12:37:08.702971" elapsed="2.000163"/>
+</kw>
+<kw name="Go Back" owner="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" start="2024-11-20T12:37:10.704147" elapsed="0.349612"/>
+</kw>
+<kw name="Get Location" owner="SeleniumLibrary">
+<msg time="2024-11-20T12:37:11.066840" level="INFO">${title3} = https://www.google.com/</msg>
+<var>${title3}</var>
+<doc>Returns the current browser window URL.</doc>
+<status status="PASS" start="2024-11-20T12:37:11.057770" elapsed="0.009070"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${title3}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-11-20T12:37:11.066840" elapsed="0.001170"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-20T12:37:13.069522" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-20T12:37:11.068010" elapsed="2.001512"/>
+</kw>
+<status status="PASS" start="2024-11-20T12:37:01.605501" elapsed="11.464830"/>
+</test>
+<status status="PASS" start="2024-11-20T12:37:01.404423" elapsed="11.666983"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Navigationkeywords">Navigationkeywords</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
